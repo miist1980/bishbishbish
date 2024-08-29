@@ -26,8 +26,29 @@
       amination-iteration-count: infinite;
       animation-duration: 1s;
     }
-    
+    @keyframes spin {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(-360deg); }
+    }
+    @keyframes depth {
+      0% { text-shadow: 0 0 black; }
+      25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+      50% { text-shadow: 0 0 black; }
+      75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+      100% { text-shadow: 0 0 black; }
+    }
   </style>
+  <body style="background-color:#3a3b3c";>
+    <h1 id="spinner"; style="color:green; font-family:Helvetica; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">
+      songs :D
+    <p style="color:green; font-family:Helvetica; font-size: 14pt; -webkit-text-stroke-width: 0.25px; -webkit-text-stroke-color: black;">
+      basically just a big ass collection of my trash songs
+    </p>
+    <a href="https://mega.nz/file/SIByjAIC#WzUXZ7Vi6uo1NJ57a_H8AjODM0At-QQFIS9Exxd2I-c">08/27/24 - up on the roof</a>
+    <a href="https://mega.nz/file/WdAnSSjb#RklQ0W08CDtRFHiwHakRTi4kjLvBQNYKxNfuGlpYDvg"><br>08/28/24 - books</a>
+
+  
+  </body>
   
   
 </html>
